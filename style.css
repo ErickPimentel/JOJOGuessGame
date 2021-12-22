@@ -1,0 +1,82 @@
+html {
+    font-family: sans-serif;
+    background-image: url(casino.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+  }
+body {
+  width: 70%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+#guessField{
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+  font-size: 50px;
+  text-align: center;
+  border:10px solid black;
+}
+
+.sendGuess, button{
+  background: white;
+  color: black;
+  position: relative;
+  border: 0;
+  padding: 14px 42px;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 20%);
+  transition: all 0.2s ease;
+}
+button:hover, .sendGuess:hover{
+  background: black;
+  color: white;
+  transition: ease-in 0.2s;
+}
+
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+.form, h1, p{
+  text-align: center;
+}
+
+h1:hover{
+  font-size: 40px;
+}
+
+p:hover{
+  font-size: 18px;
+}
+
+.p1{
+  margin-top: 60px;
+}
+
+.p2{
+  margin-bottom: 70px;
+}
+
+.imageDiv{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.resetDiv{
+  text-align: center;
+}

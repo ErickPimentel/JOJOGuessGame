@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guess the number Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <h1>!!!JOJO!!! Guess the number Game !!!JOJO!!!</h1>
+
+      <p class="p1">Dio selected a random number between 1 and 100. See if you can guess in 10 chances or less.</p>
+      <p class="p2">Dio will tell you if your guess was too high or too low.</p>
+      <p >If you lose, Dio will steal your soul</p>
+
+<div class="form">
+  <label for="guessField">Enter your guess: </label>
+  <br>
+  <input type="text" id="guessField" class="guessField" size="50px">
+  <br>
+  <input type="submit" value="Send guess" class="sendGuess">
+</div>
+
+<div class="result">
+  <p class="guesses"></p>
+  <p class="finalResult"></p>
+  <p class="lowOrHigh"></p>
+</div>
+
+<div class="imageDiv">
+</div>
+
+<div class="resetDiv">
+</div>
+
+</body>
+
+<script src="index.js"></script>
+</html>
